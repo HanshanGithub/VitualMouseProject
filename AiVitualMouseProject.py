@@ -42,7 +42,7 @@ while True:
 
             # 6. Smoothen Values
             # 7. Move Mouse
-            autopy.mouse.move(x3, y3)
+            autopy.mouse.move(wScr-x3, y3)
             cv2.circle(img,(x1,y1),15,(255,0,255), cv2.FILLED)
         # 8. Both Index and middle fingers are up : Clicking Mode
         # 9. FInd distance between fingers
